@@ -93,14 +93,14 @@ export const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
-              <button className="group px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full text-white font-semibold hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-cyan-500/40 hover:shadow-2xl">
-                <span className="group-hover:animate-pulse">View My Work</span>
-              </button>
-              <button className="group px-8 py-3 border-2 border-cyan-400 text-cyan-400 rounded-full font-semibold hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-400/50 hover:border-purple-400">
-                <span className="group-hover:animate-pulse">Get In Touch</span>
-              </button>
-            </div>
+           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+  <a href="#projects" className="group px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full text-white font-semibold hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-cyan-500/40 hover:shadow-2xl">
+    <span className="group-hover:animate-pulse">View My Work</span>
+  </a>
+  <a href="#contact" className="group px-8 py-3 border-2 border-cyan-400 text-cyan-400 rounded-full font-semibold hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-400/50 hover:border-purple-400">
+    <span className="group-hover:animate-pulse">Get In Touch</span>
+  </a>
+</div>
           </div>
         </div>
       </div>
