@@ -65,7 +65,14 @@ export const Certifications = () => {
       organizer: "Google Cloud Skills Boost",
       date: "Ongoing",
       profileLink: "https://www.cloudskillsboost.google/public_profiles/8c6b6cf8-0d15-4ab2-9db6-0290c9318adc"
-    }
+    },
+{
+    name: "Technology Job Simulation",
+    domain: "Coding / Development",
+    organizer: "Deloitte",
+    date: "June 5, 2025"
+  }
+
   ];
 
   const openCertificate = (index: number) => {
