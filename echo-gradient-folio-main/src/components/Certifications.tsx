@@ -119,10 +119,7 @@ export const Certifications = () => {
                     <p className="text-gray-300 text-sm font-medium">{cert.organizer}</p>
                   </div>
                 </div>
-                <div className="absolute top-4 right-4">
-                  <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gradient-to-r from-cyan-500/20 to-purple-500/20 text-cyan-400 border border-cyan-400/30">
-                    {cert.domain}
-                  </span>
+                
                 </div>
               </div>
 
