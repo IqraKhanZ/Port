@@ -120,7 +120,6 @@ export const Certifications = () => {
                   </div>
                 </div>
                 
-                </div>
               </div>
 
               <div className="p-6 relative z-10">
