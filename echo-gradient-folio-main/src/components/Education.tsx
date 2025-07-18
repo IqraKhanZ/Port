@@ -39,7 +39,7 @@ export const Education = () => {
       duration: "Passed 2020",
       icon: Award,
       stats: [
-        { label: "Percentage", value: "97.8%", color: "text-yellow-400" },
+        { label: "Percentage", value: "97.8%", color: "text-green-400" },
         { label: "Board", value: "ICSE", color: "text-blue-400" }
       ]
     }
